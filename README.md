@@ -1,6 +1,7 @@
 # Nominatim Morocco Docker
 
-Morocco optimized container for [Nominatim](https://github.com/openstreetmap/Nominatim).
+[Nominatim](https://github.com/openstreetmap/Nominatim) container optimized for Morocco.
+Use last pbf files from : [http://download.geofabrik.de/africa/morocco-latest.osm.pbf](http://download.geofabrik.de/africa/morocco-latest.osm.pbf) and updates from [http://download.geofabrik.de/africa/morocco-updates](http://download.geofabrik.de/africa/morocco-updates)
 
 # Supported tags and respective `Dockerfile` links #
 
