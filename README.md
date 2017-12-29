@@ -1,12 +1,16 @@
 # Nominatim Morocco Docker
 
 [Nominatim](https://github.com/openstreetmap/Nominatim) container optimized for Morocco.
-Use last pbf files from : [http://download.geofabrik.de/africa/morocco-latest.osm.pbf](http://download.geofabrik.de/africa/morocco-latest.osm.pbf) and updates from [http://download.geofabrik.de/africa/morocco-updates](http://download.geofabrik.de/africa/morocco-updates)
+
+Uses the lastest pbf files from : [http://download.geofabrik.de/africa/morocco-latest.osm.pbf](http://download.geofabrik.de/africa/morocco-latest.osm.pbf) and updates from [http://download.geofabrik.de/africa/morocco-updates](http://download.geofabrik.de/africa/morocco-updates)
 
 # Supported tags and respective `Dockerfile` links #
 
 - [`3.0.1`, `3.0`, `latest`  (*3.0/Dockerfile*)](https://github.com/InteractiveObject/nominatim-morocco-docker/tree/master/3.0)
 - [`2.5.1`, `2.5.1`, `latest`  (*2.5.1/Dockerfile*)](https://github.com/InteractiveObject/nominatim-morocco-docker/tree/master/2.5.1)
+
+## Dockerhub
+- https://hub.docker.com/r/ioteam/nominatim-morocco-docker/tags/
 
 # Build 
 
@@ -26,7 +30,7 @@ Use last pbf files from : [http://download.geofabrik.de/africa/morocco-latest.os
 You can run Docker image from docker hub.
 
 ```
-docker run --restart=always -d -p 8080:8080 --name nominatim ioteam/nominatim-morocco:latest
+docker run --restart=always -d -p 8080:8080 --name nominatim ioteam/nominatim-morocco-docker:latest
 ```
 Service will run on [http://localhost:8080/](http:/localhost:8080)
 
